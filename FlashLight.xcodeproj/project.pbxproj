@@ -12,6 +12,8 @@
 		04DD38BA213E4F5A00DE90EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD38B8213E4F5A00DE90EB /* Main.storyboard */; };
 		04DD38BC213E4F5B00DE90EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DD38BB213E4F5B00DE90EB /* Assets.xcassets */; };
 		04DD38BF213E4F5B00DE90EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD38BD213E4F5B00DE90EB /* LaunchScreen.storyboard */; };
+		04DD38C7213E5A6600DE90EB /* switch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04DD38C6213E5A6600DE90EB /* switch.wav */; };
+		04DD38C9213E6E5C00DE90EB /* Launch_Screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04DD38C8213E6E5C00DE90EB /* Launch_Screen.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		04DD38BB213E4F5B00DE90EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04DD38BE213E4F5B00DE90EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04DD38C0213E4F5B00DE90EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DD38C6213E5A6600DE90EB /* switch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = switch.wav; sourceTree = "<group>"; };
+		04DD38C8213E6E5C00DE90EB /* Launch_Screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Launch_Screen.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				04DD38BB213E4F5B00DE90EB /* Assets.xcassets */,
 				04DD38BD213E4F5B00DE90EB /* LaunchScreen.storyboard */,
 				04DD38C0213E4F5B00DE90EB /* Info.plist */,
+				04DD38C6213E5A6600DE90EB /* switch.wav */,
+				04DD38C8213E6E5C00DE90EB /* Launch_Screen.jpg */,
 			);
 			path = FlashLight;
 			sourceTree = "<group>";
@@ -122,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DD38C7213E5A6600DE90EB /* switch.wav in Resources */,
+				04DD38C9213E6E5C00DE90EB /* Launch_Screen.jpg in Resources */,
 				04DD38BF213E4F5B00DE90EB /* LaunchScreen.storyboard in Resources */,
 				04DD38BC213E4F5B00DE90EB /* Assets.xcassets in Resources */,
 				04DD38BA213E4F5A00DE90EB /* Main.storyboard in Resources */,
@@ -283,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5V8898Z33P;
 				INFOPLIST_FILE = FlashLight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.junhyuk.FlashLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5V8898Z33P;
 				INFOPLIST_FILE = FlashLight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.junhyuk.FlashLight;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
