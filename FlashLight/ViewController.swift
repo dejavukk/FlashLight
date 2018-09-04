@@ -86,7 +86,7 @@ class ViewController: UIViewController {
             flashImageView.image = UIImage(named: "offBG")
         }
         
-        /* 위에 스위치 키고 끄는 기능과 같은 표현이다.
+        /* @IBAction func switchTapped 메소드와 같은 표현이다.
         
          flashImageView.image = isOn ? #imageLiteral(resourceName: "onBG") : #imageLiteral(resourceName: "offBG")
          switchButton.setImage(isOn ? #imageLiteral(resourceName: "onSwitch") : #imageLiteral(resourceName: "offSwitch"), for: .normal)
